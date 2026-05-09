@@ -49,13 +49,16 @@ import { Component } from "react";
         console.log(previousState,this.state);
         if(previousState && previousState.count!== this.state.count && this.state.count === 10){
             this.setState({
-                ...this.state,
+            
                 changeCountStyle:true,
             })
         }
 
     }
 
+    componentWillUnmount(){
+        console.log('Component is getting unmounted');
+    }
     render(){
         // console.log(state); this will through an error.
         // console.log(this.state);
@@ -68,7 +71,7 @@ import { Component } from "react";
             
             <button onClick={this.handleClick}>Toggle Text</button>
             <button onClick={this.handleCount}>Increase Count Value</button>
-            <h3>Count is {count}</h3>
+            <h3 style={{color:changeCountStyle ? 'blue' : 'black', fontSize:changeCountStyle ?"30px":'12px'}}>Count is {count}</h3>
         </div>
 
    }
