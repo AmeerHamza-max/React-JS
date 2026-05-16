@@ -6,11 +6,12 @@ import './App.css';
 import FunctionalComponent from './Day2/functional-component';
 import MultipleTags from './Day2/exercise';
 import ChangeToFunction from './Day2/exercise';
-import ProductList from './Day6/Components/Products';
+import ProductList from './Day7/Components/Products';
 import Card from './Day3/Exercise/Card';
 import List from './Day3/Exercise/List';
 import Product from './Day3/Exercise/Product';
 import ClassBasedComponent from './Day6/class-based-component';
+import Users from './Day7/users';
 
 
 const dummyProductData = ['Product1','Product2','Product3'];
@@ -24,9 +25,10 @@ function App() {
   return (
     <>
      {/* <h1>Hello React from react app</h1> */}
-     <ProductList name="Ameer Hamza" city="Sargodha" dummyProductData={dummyProductData} />
+     {/* <ProductList name="Ameer Hamza" city="Sargodha" dummyProductData={dummyProductData} /> */}
      {/* <ProductList name="Ameer Hamza" city="Sargodha" listofProducts={dummyProductData} /> */}
      {/* <ClassBasedComponent /> */}
+     <Users />
 
      
 
