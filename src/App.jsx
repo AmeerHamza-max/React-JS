@@ -11,7 +11,10 @@ import Card from './Day3/Exercise/Card';
 import List from './Day3/Exercise/List';
 import Product from './Day3/Exercise/Product';
 import ClassBasedComponent from './Day6/class-based-component';
-import Users from './Day7/users';
+import Users from './Day8/users';
+import ContextButtonComponent from './Day8/Components/context-concept/button';
+import ContextTextComponent from './Day8/Components/context-concept/text';
+import UseReducerExample from './Day9/use-reducer-example';
 
 
 const dummyProductData = ['Product1','Product2','Product3'];
@@ -28,7 +31,12 @@ function App() {
      {/* <ProductList name="Ameer Hamza" city="Sargodha" dummyProductData={dummyProductData} /> */}
      {/* <ProductList name="Ameer Hamza" city="Sargodha" listofProducts={dummyProductData} /> */}
      {/* <ClassBasedComponent /> */}
-     <Users />
+     {/* <Users /> */}
+     {/* <ContextButtonComponent />
+     <ContextTextComponent />
+      */}
+      {/* <UseReducerExample /> */}
+      <h1>Simple Todo APP Using Material UI</h1>
 
      
 
