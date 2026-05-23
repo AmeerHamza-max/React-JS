@@ -5,7 +5,7 @@ import App from './App.jsx'
 import GlobalState from './Day8/context/index.jsx'
 
 createRoot(document.getElementById('root')).render(
- <GlobalState>
+ 
   <App />
- </GlobalState>
+ 
 )
